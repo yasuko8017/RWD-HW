@@ -16,15 +16,19 @@
 }
 .ad {
   background-color: orange;
+  width: 97%;
   height: 20em;
-  /*margin: 5px;*/
+  margin: 5px;
+  /*margin-left: 5px;*/
+  /*margin-right: 10px;*/
 }
 .activity, .link-content{
   text-align: center;
 }
 .activity div{
   background-color: pink;
-  display:inline-block;
+  /*display:inline-block;*/
+  float: left;
   text-align: left;
   width:48%;
   height: 7em;
